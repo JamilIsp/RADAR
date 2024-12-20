@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18914.svg)](http://dx.doi.org/10.5281/zenodo.18914)
 ## Overview
 
-This repository accompanies the paper "RADAR: A Realistic Dataset for Advancing Ransomware Detection and Mitigation Strategies". It includes resources for researchers and practitioners interested in ransomware detection using machine learning. The RADAR dataset, along with scripts for preprocessing, feature extraction, and evaluation, supports the development and benchmarking of ransomware detection models in real-world scenarios.
+This repository accompanies the paper "RADAR: A Realistic Dataset for Advancing Ransomware Detection and Mitigation Strategies" and provides valuable resources for researchers and practitioners focused on ransomware detection using machine learning. The RADAR dataset is structured as a continuous stream of Sysmon logs, combining ransomware events with benign activities to reflect realistic scenarios. Captured in a lab environment using Windows 11, Sysmon, and Elasticsearch, the dataset is ideal for training and testing incremental learning algorithms on a data stream. It includes gradual and abrupt drift scenarios and imbalanced datasets, which better represent real-world conditions where ransomware attacks are rare compared to benign activities. Additionally, the repository includes scripts for preprocessing, feature extraction, and evaluation, enabling the development and benchmarking of ransomware detection models in practical and dynamic environments.
 
 ## Citation
 If you use this dataset, please cite this work:
